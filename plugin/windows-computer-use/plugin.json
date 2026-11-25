@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "windows-computer-use",
+  "displayName": "Windows Computer Use Pro",
+  "version": "3.1.0",
+  "description": "High-precision, zero-lockout Windows desktop automation rules, skill runbook, and dedicated desktop-operator subagent paired with Enhanced Windows-MCP v3.1.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "查看当前桌面上打开的所有窗口、坐标矩形和管理员权限状态",
+    "在不移动鼠标的情况下检查目标窗口控件并执行点击或填写",
+    "识别微信或游戏登录器中的中文按钮坐标并安全点击"
+  ],
+  "author": {
+    "name": "Local Customizations",
+    "url": "https://antigravity.google"
+  },
+  "homepage": "https://antigravity.google/docs/mcp",
+  "license": "MIT",
+  "keywords": [
+    "windows",
+    "computer-use",
+    "desktop",
+    "uia",
+    "ocr",
+    "automation"
+  ]
+}

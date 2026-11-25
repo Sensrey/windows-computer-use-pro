@@ -1,0 +1,101 @@
+{
+    "name":  "windows-computer-use-portable",
+    "version":  "3.1.0",
+    "created_at":  "2026-11-24T21:40:51+08:00",
+    "supported_os":  [
+                         "Windows 10 x64",
+                         "Windows 11 x64"
+                     ],
+    "supported_hosts":  [
+                            "antigravity",
+                            "claude-code",
+                            "codex",
+                            "generic-mcp"
+                        ],
+    "pinned_dependencies":  [
+                                "windows-mcp==0.9.0",
+                                "fastmcp==4.2.5"
+                            ],
+    "files":  [
+                  {
+                      "path":  "AGENT_INSTALL.md",
+                      "bytes":  3178,
+                      "sha256":  "59d0726b821c5d2d4c7a9a10634942e8b74ae511fb8941223fd4b6a5d7395c38"
+                  },
+                  {
+                      "path":  "install.ps1",
+                      "bytes":  10985,
+                      "sha256":  "4cfb3f509b703435b6f2b127b3d037f5fe4207e1eb4834b0a7f5c6f7d0513a63"
+                  },
+                  {
+                      "path":  "mcp_config.template.json",
+                      "bytes":  1043,
+                      "sha256":  "743dfe39f0ec06b39da854b20ea3ce95854df540e8e8b0c61737949757b0de14"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/agents/desktop-operator.md",
+                      "bytes":  3166,
+                      "sha256":  "bbcbecb0685eca72f5c78b2ebb8727d9caed24ec33c83285aada64deb3172a41"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/assets/logo.svg",
+                      "bytes":  800,
+                      "sha256":  "9b0cf8f81d2664bca639e5b39ccea07d0d9e389f67e3ab19d4249f8883b4f8ce"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/plugin.json",
+                      "bytes":  934,
+                      "sha256":  "97515bcd7ece5527ea6f85262c35e81ed11515a1b4702f5770aea81d3c1acf62"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/README.md",
+                      "bytes":  1014,
+                      "sha256":  "13c1f8a44b62fce2c85613b78a52f2e6c3bc156c6c3b66c077dd031750b729c9"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/rules/AGENTS.md",
+                      "bytes":  1265,
+                      "sha256":  "61479c873a37f9874bbb2e0e27d17356b85b9c33f9582c7ec103926c06dbabc4"
+                  },
+                  {
+                      "path":  "plugin/windows-computer-use/skills/windows-computer-use/SKILL.md",
+                      "bytes":  9617,
+                      "sha256":  "c3ce7bd61274636079eba4b87aa0e1e7d22149a35a3a86e2f5db1e35ec5451fb"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  2907,
+                      "sha256":  "c10d309e60305e348fa311d4d89ce5876547653733b1f4e10ca41748f2170e0f"
+                  },
+                  {
+                      "path":  "server/enhanced_server.py",
+                      "bytes":  176076,
+                      "sha256":  "84b0ef468d9d0a952ff6230e7e2280a67edf76c6b90fd9a79b857e3b3d68f375"
+                  },
+                  {
+                      "path":  "server/requirements.txt",
+                      "bytes":  34,
+                      "sha256":  "5e6a860e43c797d0898931d62264389780c9fbbe5e52b2a8d7fff95c4072f50b"
+                  },
+                  {
+                      "path":  "server/test_enhanced_server.py",
+                      "bytes":  40930,
+                      "sha256":  "f00fca29cebff47c903ee6c2f689966cfd7178b95ff5a2df9d5da6e27b296649"
+                  },
+                  {
+                      "path":  "server/win_ocr.ps1",
+                      "bytes":  4647,
+                      "sha256":  "63c78450d905b066e3c39fc9808ff1875e0eb4df022cb69226f157bc27680ec6"
+                  },
+                  {
+                      "path":  "uninstall.ps1",
+                      "bytes":  1774,
+                      "sha256":  "a501b5975e5f025587f2e5110d323e2caeac4447235f35cfa5aad98a38e4a20e"
+                  },
+                  {
+                      "path":  "verify.ps1",
+                      "bytes":  4281,
+                      "sha256":  "5d07c53e263f2ffc0b10970e2fc6a35dd3da2becf77edf0ab4756d8b30ce259b"
+                  }
+              ]
+}

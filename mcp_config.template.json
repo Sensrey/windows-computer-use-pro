@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "windows-mcp": {
+      "command": "{{PYTHON_EXE}}",
+      "args": [
+        "{{SERVER_SCRIPT}}",
+        "serve",
+        "--no-control",
+        "--exclude-tools",
+        "PowerShell,FileSystem,Registry,Clipboard,Process,Scrape,Notification"
+      ],
+      "env": {
+        "ANONYMIZED_TELEMETRY": "false",
+        "WINDOWS_MCP_MERGE_WORD_NODES": "1",
+        "WINDOWS_MCP_MAX_TREE_ELEMENTS": "600",
+        "WINDOWS_MCP_EXCLUDE_PROCESSES": "Antigravity.exe",
+        "WINDOWS_MCP_MAX_IMAGE_WIDTH": "2560",
+        "WINDOWS_MCP_MAX_IMAGE_HEIGHT": "1440",
+        "PYTHONUTF8": "1"
+      },
+      "disabledTools": [
+        "PowerShell",
+        "FileSystem",
+        "Registry",
+        "Clipboard",
+        "Process",
+        "Scrape",
+        "Notification"
+      ],
+      "tools": {
+        "ListWindows": { "eager": true },
+        "InspectWindow": { "eager": true },
+        "UiaAction": { "eager": true },
+        "SendToWindow": { "eager": true },
+        "BatchActions": { "eager": true }
+      }
+    }
+  }
+}
